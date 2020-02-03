@@ -1225,6 +1225,7 @@ $#_}*!(+([_&%{^&[([%]}*^{{([@+@]@*&@_!]_+([(#&!]]#$$#]@#{_]][_{@]{*))$({%}_![@$]
 """
 
 st = ''
+st = st+ch
 for ch in filter(lambda x: x in set(string.ascii_letters), page_source):
     st = st+ch
 print("hello")
