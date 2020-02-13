@@ -26,6 +26,3 @@ g.name = "jj"
 g.age = 33
 g.score = 99
 print("g.score =", g.score)
-print("sdf")
-import json
-json.dumps(None,,indent=)
